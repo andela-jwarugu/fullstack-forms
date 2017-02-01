@@ -1,6 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import First from './12-basic-button.jsx';
 import One from './01-basic-button.jsx';
 import Two from './02-basic-button.jsx';
 import Three from './03-basic-input.jsx';
@@ -16,7 +17,7 @@ import Eleven from './11-redux-app.jsx';
 const routes = [
   One, Two, Three, Four, Five,
   Six, Seven, Eight, Nine,
-  Ten, Eleven,
+  Ten, Eleven, First
 ];
 
 const location = window.location;
